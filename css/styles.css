@@ -1,3 +1,30 @@
-.jumbotron{
+.main-content{
   text-align: center;
+  font-weight: bold;
+
+}
+.front-page{
+  background: url(../images/h_img.jpg) no-repeat;
+  background-size: contain;
+  color: white;
+}
+.about-us{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.services{
+  background-image: url(../images/s_image.jpg);
+  color: white;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h1{
+  font-weight: bold;
+}
+h5{
+  font-weight: bold;
+}
+.container{
+  padding-top: 50px;
 }
