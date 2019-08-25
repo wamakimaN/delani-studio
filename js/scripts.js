@@ -10,5 +10,8 @@ $(document).ready(function(){
   $(".clickable2").click(function() {
     $("#hide2").fadeToggle("slow");
     $("#icon2").slideToggle("slow");
-})
+  })
+  $(".portfolio img").hover(function() {
+    $(this).animate({opacity:.5})
+  })
 })

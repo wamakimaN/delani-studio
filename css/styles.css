@@ -1,7 +1,6 @@
 .main-content{
   text-align: center;
   font-weight: bold;
-
 }
 .front-page{
   background: url(../images/h_img.jpg) no-repeat;
@@ -20,6 +19,7 @@
   padding-bottom: 100px;
 }
 .portfolio{
+  height: 600px;
 }
 .contact-us{
   background-image: url(../images/c_image.jpg);
@@ -48,4 +48,7 @@ h5{
 }
 #hide2{
   display: none;
+}
+col-md-3{
+  width: 250px;
 }
