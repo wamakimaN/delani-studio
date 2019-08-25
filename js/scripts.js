@@ -13,5 +13,7 @@ $(document).ready(function(){
   })
   $(".portfolio img").hover(function() {
     $(this).animate({opacity:.5})
+  }, function(){
+    $(this).stop().animate({opacity:1})
   })
 })
