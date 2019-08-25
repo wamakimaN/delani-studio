@@ -19,6 +19,9 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.portfolio{
+  justify-content: space-between;
+}
 h1{
   font-weight: bold;
 }
