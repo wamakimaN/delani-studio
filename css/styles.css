@@ -19,19 +19,37 @@
   padding-bottom: 100px;
 }
 .portfolio{
-  height: 600px;
+  align-items: center;
 }
 .contact-us{
-  background-image: url(../images/c_image.jpg);
+  background-image: url(../images/c_image.jpg); no-repeat;
   background-size: contain;
+  background-position: relative;
   color: white;
+  height: 680px;
+}
+.row{
+  align: center;
+}
+.pname{
+  display: none;
 }
 input[type=text]{
-  width: 100%;
   background: none;
   color: white;
+  justify-content: flex-end;
+  width: 100%;
+
+}
+textarea{
+  background: none;
+  color: white;
+  width: 1050px;
 }
 h1{
+  font-weight: bold;
+}
+h2{
   font-weight: bold;
 }
 h5{
@@ -49,6 +67,16 @@ h5{
 #hide2{
   display: none;
 }
-col-md-3{
-  width: 250px;
+table{
+  width: 1180px;
+}
+td img{
+  width: 255px;
+  padding-left: 10px;
+}
+#firstName{
+  display: none;
+}
+::placeholder{
+  color: white;
 }

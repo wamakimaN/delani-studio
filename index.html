@@ -32,7 +32,7 @@
       <div class="we-do container">
         <h2>WHAT WE DO</h2>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 we-do">
             <img id="icon"class="clickable" src="images/design_icon.png">
             <h5>DESIGN</h5>
             <div id="hide">
@@ -42,7 +42,7 @@
               user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 we-do">
             <img id="icon1" class="clickable1" src="images/dev_icon.png">
             <h5>DEVELOPMENT</h5>
             <div id="hide1">
@@ -51,8 +51,8 @@
               such as test-driven development and pair programming. </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <img id="icon2"class="clickable2" src="images/product_icon.png">
+          <div class="col-md-4 we-do">
+            <img id="icon2" class="clickable2" src="images/product_icon.png">
             <h5>PRODUCT MANAGEMENT</h5>
             <div id="hide2">
               <p class="clickable2">Planning and development is iterative. Because we are constantly coding and testing, the products
@@ -64,50 +64,39 @@
       </div><br>
       <div class="portfolio container">
         <h2>PORTFOLIO</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <img id="work1" src="images/work1.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work2" src="images/work2.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img  id="work3" src="images/work3.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work4" src="images/work4.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work5" src="images/work5.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work6" src="images/work6.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work7" src="images/work7.jpg" width="255px">
-          </div>
-          <div class="col-md-3">
-            <img id="work8" src="images/work8.jpg" width="255px">
-          </div>
-        </div>
+        <table align="centre">
+          <tr>
+            <td><img id="work1" src="images/work1.jpg"><p class="pname">jinaaas</p></td>
+            <td><img id="work2" src="images/work2.jpg"><p class="pname" ></p></td>
+            <td><img id="work3" src="images/work3.jpg"><p class="pname" ></p></td>
+            <td><img id="work4" src="images/work4.jpg"><p class="pname" ></p></td>
+          </tr><br>
+          <tr>
+            <td><img id="work5" src="images/work5.jpg"></td>
+            <td><img id="work6" src="images/work6.jpg"></td>
+            <td><img id="work7" src="images/work7.jpg"></td>
+            <td><img id="work8" src="images/work8.jpg"></td>
+          </tr>
+        </table>
       </div><br><br><br><br>
       <div class="contact-us">
         <div class="container">
-          <h2>CONTACT US</h2>
+          <form class= "contacts" action="index.html" method="post">
+            <div class= "row">
+              <div class= "col-md">
+                <input id="name"type="text" name="name" placeholder="name...">
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="col-md">
+                <input id="mail"type="text" name="mail" placeholder="e-mail...">
+                <span class="form-error" id="mail-error"></span>
+              </div>
+            </div>
+          </form><br>
           <div class="row">
-            <div class="col-lg-6">
-              <input id="name"type="text" name="name" placeholder="name...">
-            </div>
-            <div class="col-lg-6">
-              <input id="mail"type="text" name="mail" placeholder="e-mail...">
-            </div>
-          </div><br><br>
-          <div class="row">
-            <div class="col-lg-12">
-              <input id="message"type="text" name="message" placeholder="Your message here">
-            </div>
+            <textarea type="text" id="message" name="message"placeholder="Your message here"></textarea>
           </div>
-        </div><br>
+        </div>
       </div>
     </div>
   </body>
