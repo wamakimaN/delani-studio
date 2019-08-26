@@ -48,6 +48,18 @@ $(document).ready(function(){
         error_name = true;
       }
     }
-  
+    function check_mail()  {
+      var pattern = /^([A-Za-z0-9_\-\.]){1,}\@([A-Za-z0-9_\-\.]){1,}\.([A-Za-z]{2,4})$/;
+      var mail = $("#mail").val();
+      if(pattern.test(mail) && mail !== ''){
+        $("#mail-error").hide();
+        $("#mail").css("border-bottom","2px solid #34F458");
+      }else {
+        $("#mail-error").html("Incorrect e-mail format");
+        $("#mail-eror").show();
+        $("#mail").css("border-bottom","2px solid #F90A0A");
+        error_mail = true;
+      }
+    }
 })
 })
