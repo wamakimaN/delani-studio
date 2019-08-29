@@ -24,6 +24,18 @@ body{
 .portfolio{
   align-items: center;
 }
+.project {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  opacity: 0;
+  width: 80%;
+  border: 5px solid white;
+  padding: 4px;
+  margin: 5px;
+  height: 80%;
+}
 .contact-us{
   background: url(../images/c_image.jpg) no-repeat;
   background-size: contain;
