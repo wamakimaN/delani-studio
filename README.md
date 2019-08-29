@@ -10,6 +10,10 @@ there are no known bugs.
 ## Technologies Used
 The wegpage was created using javascript, HTML and css.
 clicking on the what we do icons toggles more information and hovering over the porfolio pictures reveals the names of the projects.
+##Website overview
+![Screenshots of the site](/home/moses/Pictures/screenshot delani1.png)
+![what we do section](/home/moses/Pictures/screenshot delani2.png)
+![Contact us section](/home/moses/Pictures/screenshot delani3.png)
 ## Support and contact details
 You can reach the creator via e-mail for any issues or if you have questions, ideas or concerns.Feel free to make sugestions or conrtibutions that can improve the website's functionality.
 ### License
