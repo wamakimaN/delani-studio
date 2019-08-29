@@ -1,3 +1,6 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .main-content{
   text-align: center;
   font-weight: bold;
@@ -22,7 +25,7 @@
   align-items: center;
 }
 .contact-us{
-  background-image: url(../images/c_image.jpg); no-repeat;
+  background: url(../images/c_image.jpg) no-repeat;
   background-size: contain;
   background-position: relative;
   color: white;
@@ -39,12 +42,16 @@ input[type=text]{
   color: white;
   justify-content: flex-end;
   width: 100%;
-
+  border-color: white;
 }
 textarea{
   background: none;
   color: white;
-  width: 1050px;
+  width: 1100px;
+  height: 250px;
+}
+.button{
+  align: center;
 }
 h1{
   font-weight: bold;
@@ -67,12 +74,16 @@ h5{
 #hide2{
   display: none;
 }
-table{
-  width: 1180px;
+.col-sm-3{
+  width: 245px;
+  padding: 10px;
 }
-td img{
+.portfolio img{
   width: 255px;
-  padding-left: 10px;
+  float: left;
+}
+.proj{
+  display: none;
 }
 #firstName{
   display: none;

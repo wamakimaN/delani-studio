@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studios</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
@@ -64,20 +65,34 @@
       </div><br>
       <div class="portfolio container">
         <h2>PORTFOLIO</h2>
-        <table align="centre">
-          <tr>
-            <td><img id="work1" src="images/work1.jpg"><p class="pname">jinaaas</p></td>
-            <td><img id="work2" src="images/work2.jpg"><p class="pname" ></p></td>
-            <td><img id="work3" src="images/work3.jpg"><p class="pname" ></p></td>
-            <td><img id="work4" src="images/work4.jpg"><p class="pname" ></p></td>
-          </tr><br>
-          <tr>
-            <td><img id="work5" src="images/work5.jpg"></td>
-            <td><img id="work6" src="images/work6.jpg"></td>
-            <td><img id="work7" src="images/work7.jpg"></td>
-            <td><img id="work8" src="images/work8.jpg"></td>
-          </tr>
-        </table>
+        <div class="row">
+          <div class="col-sm-3">
+            <img id="work1" src="images/work1.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work2" src="images/work2.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work3" src="images/work3.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work4" src="images/work4.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <img id="work5" src="images/work5.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work6" src="images/work6.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work7" src="images/work7.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img id="work8" src="images/work8.jpg">
+          </div>
+        </div>
       </div><br><br><br><br>
       <div class="contact-us">
         <div class="container">
@@ -96,8 +111,23 @@
           <div class="row">
             <textarea type="text" id="message" name="message"placeholder="Your message here"></textarea>
           </div>
+          <div class="row">
+            <input type="button" name="button" value="submit">
+          </div>
         </div>
       </div>
+      <div class="social">
+         <img src="images/twitter.png" alt="twitter">
+         <img src="images/dribble.png" alt="dribble">
+         <img src="images/facebook.png" alt="facebook">
+         <img src="images/g_plus.png" alt="g_plus">
+         <img src="images/skype.png" alt="skype">
+         <img src="images/stumble_upon.png" alt="stumble">
+         <img src="images/behance.png" alt="behance">
+         <img src="images/pinterest.png" alt="pinterest">
+         <img src="images/flickr.png" alt="flickr">
+         <img src="images/you_tube.png" alt="you_tube">
+      </div><br><br>
     </div>
   </body>
 </html>
